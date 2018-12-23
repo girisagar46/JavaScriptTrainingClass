@@ -1,0 +1,1 @@
+For more information, go here: [JavaScript Bitwise Operations](https://www.w3schools.com/js/js_bitwise.asp)
