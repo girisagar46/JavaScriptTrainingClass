@@ -23,3 +23,13 @@ function myFunction() {
 }
 
 console.log(myFunction());
+
+
+let tesla = {
+    model: "S",
+    chargingTime: "1 Hour 20 Minutes",
+    getDetails() {
+        return this.model + " model requires " + this.chargingTime + " to recharge."
+    }
+};
+console.log(tesla.getDetails());

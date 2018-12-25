@@ -26,6 +26,27 @@ let returnVar = SumReturn(2, 100);
 
 console.log(returnVar);
 
+
+/*
+
+Write this JS into different file and link it to a HMTL file and see the output.
+
+
+// "immediately-executing anonymous functions", which prevent temporary variables from leaking into the global scope.
+(function(){
+    let temporary = 5;
+    // We can access the global scope by assigning to the "global object", which
+    // in a web browser is always `window`. The global object may have a
+    // different name in non-browser environments such as Node.js.
+    window.permanent = 10;
+})();
+console.log(temporary); // raises ReferenceError
+console.log(permanent); // = 10
+
+*/
+
+
+
 // new in ES6 (Default parameter)
 function es6_sum(num1=0, num2=0) {
     return num1+num2;
