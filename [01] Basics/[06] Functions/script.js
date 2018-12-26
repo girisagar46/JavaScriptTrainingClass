@@ -62,3 +62,6 @@ const p = function(x, y) {
 // ES6
 const q = (x, y) => x * y;
 console.log(q(1, 2));
+
+// slice() method in string
+let s = "Hello".slice(0, 4);
