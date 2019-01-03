@@ -30,14 +30,12 @@
     1. Take half of the number and store the result.
     2. Square the result of #1 and store that result.
     3. Calculate the area of a circle with the result of #2 as the radius.
-    4. Calculate what percentage that area is of the squared result (#3). 
-
 
 **Q4. The MixUP**
 
  Create a function called mixUp. It should take in two strings, and return the concatenation of the two strings (separated by a space) slicing out and swapping the first 2 characters of each. You can assume that the strings are at least 2 characters long. For example:
 
 ```js
-mixUp('mix', 'pod') // Outputs: 'pox mid'
-mixUp('dog', 'dinner') // Outputs:  'dig donner'
+mixUp('mix', 'pod'); // Outputs: 'pox mid'
+mixUp('dog', 'dinner'); // Outputs:  'dig donner'
 ```
