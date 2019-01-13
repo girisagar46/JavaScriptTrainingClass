@@ -58,10 +58,10 @@ myArray[3] = "Hello";
 
 // Add and remove element from front or back end of an array
 myArray.unshift(3); // Add as the first element
-let someVar = myArray.shift(); // Remove first element and return it
+let someVar1 = myArray.shift(); // Remove first element and return it
 
 myArray.push(3); // Add as the last element
-let someVar = myArray.pop(); // Remove last element and return it
+let someVar2 = myArray.pop(); // Remove last element and return it
 
 // Join all elements of an array with semicolon
 let myArray0 = [32,false,"js",12,56,90];

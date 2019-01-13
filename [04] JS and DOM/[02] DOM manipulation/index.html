@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Manipulation</title>
+    <style>
+        #button {
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            background-color: #125eff;
+        }
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <div id="inner">
+        <p id="demo" style="border: 1px solid;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <input type="text" name="test">
+        <button class="theButton" onclick="addNewElement()">Hello</button>
+    </div>
+</div>
+
+<div class="container2">
+    <div id="button" onmouseover="oops(this);">
+        OK
+    </div>
+</div>
+
+<script>
+    console.log("document.getElementById('innner')", document.getElementById("inner"));
+    console.log("document.getElementsByClassName('theButton')", document.getElementsByClassName("theButton"));
+    console.log("document.getElementsByName('test')", document.getElementsByName("test"));
+    console.log("document.getElementsByTagName('p')", document.getElementsByTagName("p"));
+</script>
+<script src="script.js"></script>
+<noscript>JS not supported</noscript>
+</body>
+</html>
