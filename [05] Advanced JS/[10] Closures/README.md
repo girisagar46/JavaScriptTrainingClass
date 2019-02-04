@@ -1,0 +1,1 @@
+[https://medium.freecodecamp.org/javascript-closures-simplified-d0d23fa06ba4](https://medium.freecodecamp.org/javascript-closures-simplified-d0d23fa06ba4)
