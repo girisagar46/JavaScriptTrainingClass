@@ -1,0 +1,14 @@
+{
+  "name": "node-intro",
+  "version": "1.0.0",
+  "description": "Basic Introduction To NodeJS and NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "Sagar Giri",
+  "license": "MIT",
+  "dependencies": {
+    "superheroes": "^2.0.0"
+  }
+}
